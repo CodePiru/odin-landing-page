@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
 * {
     margin: 0;
@@ -87,6 +87,7 @@ button {
     width: 175px;
     margin-top: 8px;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .box {
@@ -96,3 +97,49 @@ button {
     width: 175px;
 }
 
+.quote {
+    padding: 100px 25%;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.person {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.banner {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px;
+    margin: 100px 14%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+.banner button {
+    border: 2px solid white;
+}
+
+.banner-text strong {
+    font-size: 26px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 44px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
