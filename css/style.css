@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 * {
     margin: 0;
@@ -63,3 +63,36 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.random-info {
+    padding: 50px 15%;
+}
+
+.random-info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container {
+    padding: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card p {
+    text-align: center;
+    color: #6d747d;
+    width: 175px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.box {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    height: 175px;
+    width: 175px;
+}
+
