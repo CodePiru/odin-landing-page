@@ -38,16 +38,18 @@ header ul {
     width: 50%;
 }
 
+.hero-text h1,
+.hero-text p {
+    margin-bottom: 25px;
+}
+
 .hero-img {
-    display: flex;
-    justify-content: center;
     height: auto;
-    align-items: center;
     border-radius: 25px;
 }
 
 .hero {
-    align-items: stretch;
+    align-items: center;
     padding: 100px 15%;
     gap: 50px;
 }
