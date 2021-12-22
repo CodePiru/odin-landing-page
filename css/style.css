@@ -39,11 +39,11 @@ header ul {
 }
 
 .hero-img {
-    background-color: #6d747d;
     display: flex;
     justify-content: center;
     height: auto;
     align-items: center;
+    border-radius: 25px;
 }
 
 .hero {
@@ -90,9 +90,8 @@ button {
     font-weight: 500;
 }
 
-.box {
-    border: 5px solid #3882F6;
-    border-radius: 15px;
+.box,
+.box img {
     height: 175px;
     width: 175px;
 }
